@@ -23,6 +23,8 @@
 - 스코어 분석에 사용한 서비스:  [seobility](https://www.seobility.net/en/) 
 
 사이트를 이용하여 성능 측정
+### overview
+![](https://velog.velcdn.com/images/energyy044/post/770df55b-dac1-43b3-9b17-10223c985818/image.png)
 ### 개선점
 #### 1. 메타 사양
 메타사양에서는 72%를 달성하였다. 제일 문제가 있는 부분은 (예상했던대로) 링크였는데 
