@@ -5,16 +5,26 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { HelmetProvider } from "react-helmet-async";
 
-const root = ReactDOM.createRoot(
-  document.getElementById("root") as HTMLElement
-);
-root.render(
-  <HelmetProvider>
+const container = document.getElementById("root") as HTMLElement;
+const root = ReactDOM.createRoot(container);
+if (container.hasChildNodes()) {
+  ReactDOM.hydrateRoot(
+    container,
     <React.StrictMode>
-      <App />
+      <HelmetProvider>
+        <App />
+      </HelmetProvider>
     </React.StrictMode>
-  </HelmetProvider>
-);
+  );
+} else {
+  root.render(
+    <React.StrictMode>
+      <HelmetProvider>
+        <App />
+      </HelmetProvider>
+    </React.StrictMode>
+  );
+}
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
