@@ -2,22 +2,24 @@
 - React 프로젝트에서 SEO 대응을 위한 최소 작업 대응
 
 ## 개발환경 세팅
-1. 배포 와
-1. 배포 환경
- - netlify를 이용한 배포
-1. 배포 가이드 
- - `npm run build`를 실행하면 자동으로 배포된다. 
+.. 작성 예정
 
 - (여기에 개발 환경 세팅을 위해 필요한 작업 적기)
 
 ## Favicon 세팅 <--- TODO
 ### 각 파일의 역할
-- favicon.icon :주소 표시줄에서 사이트 URL 옆에 표시되는 아이콘 파일 
-- android.icon: android 앱 아이콘, 어플리케이션을 실행하기 위해 누르는 이미지이며 해상도에 따른 여러 크기 지원 (태블릿 포함)
-- apple.icon: apple 앱 아이콘, 어플리케이션을 실행하기 위해 누르는 이미지이며 해상도에 따른 여러 크기 지원(태플릿 포함)
-- ms-icon : Microsoft 아이콘 지원 
-- browserconfig.xml: Window 8 이상의 버전에서 Internet Explorer 11로 접속하는 경우(IE 10 이하 버전 해당되지 않음) 클라이언트가 요청하는 browser configuration file
-- manifest.json: 웹 애플리케이션의 정보를 JSON 텍스트파일로 제공해서 웹,앱 다운로드를 네이티브 앱과 유사한 형태로 제공할 수 있도록 도와주는 파일
+- favicon.icon
+   - 주소 표시줄에서 사이트 URL 옆에 표시되는 아이콘 파일 
+- android.icon
+   - android 앱 아이콘, 어플리케이션을 실행하기 위해 누르는 이미지이며 해상도에 따른 여러 크기 지원 (태블릿 포함)
+- apple.icon
+   - apple 앱 아이콘, 어플리케이션을 실행하기 위해 누르는 이미지이며 해상도에 따른 여러 크기 지원(태플릿 포함)
+- ms-icon
+   - Microsoft 아이콘 지원 
+- browserconfig.xml
+   - Window 8 이상의 버전에서 Internet Explorer 11로 접속하는 경우(IE 10 이하 버전 해당되지 않음) 클라이언트가 요청하는 browser configuration file
+- manifest.json
+   - 웹 애플리케이션의 정보를 JSON 텍스트파일로 제공해서 웹,앱 다운로드를 네이티브 앱과 유사한 형태로 제공할 수 있도록 도와주는 파일
    - 이름, 저작자, 아이콘, 버전 등이 들어간다. 
 
 
@@ -52,7 +54,7 @@
 
 이 외에도 모바일사이즈에 viewport나 javascript파일의 로드 개수, image seo,소셜 네트워크 추가적으로 필요한 markup,https 등 다양한 정보를 나타낸다. 
 
-제일 하위에는 가장 중요한 키워드 최적화도 알려주는 keyword Checker도 있으니 활용해보면 좋을  것 같다. 
+제일 하위에는 가장 중요한 키워드 최적화도 알려주는 keyword Checker도 있으니 활용해보면 좋을 것 같다. 
 
 ### 알게된 인사이트
 - 메타태그로 인해 시작했던 건데 page quality와 link structure도 사이트의 seo에 영향을 미친다는 사실을 알게 되었다.
