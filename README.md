@@ -5,7 +5,9 @@
 <img width="241" alt="스크린샷 2024-04-04 오전 9 17 54" src="https://github.com/qoqomi/seo-project/assets/99249544/c1d47552-64a2-4a75-addf-696af3302098">
 
 ## 개발환경 세팅
-.. 작성 예정
+```
+yarn dev
+```
 
 - (여기에 개발 환경 세팅을 위해 필요한 작업 적기)
 
